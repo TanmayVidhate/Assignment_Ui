@@ -14,6 +14,17 @@ import pin from '../assets/images/pin.png'
 import twi from '../assets/images/twi.png'
 import person from '../assets/images/testimonies_img.jpg'
 
+//card img import
+import card1 from '../assets/images/card_1_img.png'
+import card2 from '../assets/images/card_2_img.png'
+import card3 from '../assets/images/card_3_img.png'
+import card4 from '../assets/images/card_4_img.png'
+
+import num_1 from '../assets/images/num_1.png'
+import num_2 from '../assets/images/num_2.png'
+import num_3 from '../assets/images/num_3.png'
+import num_4 from '../assets/images/num_4.png'
+
 
 function Landingpage() {
     return (
@@ -57,9 +68,9 @@ function Landingpage() {
                     </div>
 
                     {/* second div */}
-                    <div className='basis-1/3 border-2 border-red-600 rounded-3xl bg-[url(/person_img_man.png)] bg-cover bg-center'>
-                        <p className='text-3xl m-5'>Your Task.</p>
-                        <p className='text-3xl m-5'>Your Tools.</p>
+                    <div className='basis-1/4 border-2 border-red-600 rounded-3xl bg-[url(/person_img_man.png)] bg-cover bg-center'>
+                        <p className='text-3xl mx-5 mt-5 text-[#FFFFFF80] font-semibold'>Your Task.</p>
+                        <p className='text-3xl mx-5 text-[#FFFFFF] font-semibold'>Your Tools.</p>
                         
                     </div>
                 </div>
@@ -83,10 +94,10 @@ function Landingpage() {
 
                 {/* Cards */}
                 <div className='mt-10 w-full flex justify-center gap-8 border-2 border-red-700'>
-                    <Cards img="First img" number={1} heading="User-Friendly Interface" msg="Our platform offers seamless task management to boost your efficiency." />
-                    <Cards img="Second img" number={2} heading="Collaborate & Share Effortlessly" msg="Invite team members to work together and achieve your goals faster." />
-                    <Cards img="third img" number={3} heading="Effortless Collaboration" msg="Invite team members to work together and achieve your goals faster." />
-                    <Cards img="fourth img" number={4} heading="Seamless Access" msg="Stay connected and manage your tasks on the go with ease." />
+                    <Cards img={card1} number={num_1} heading="User-Friendly Interface" msg="Our platform offers seamless task management to boost your efficiency." />
+                    <Cards img={card2} number={num_2} heading="Collaborate & Share Effortlessly" msg="Invite team members to work together and achieve your goals faster." />
+                    <Cards img={card3} number={num_3} heading="Effortless Collaboration" msg="Invite team members to work together and achieve your goals faster." />
+                    <Cards img={card4} number={num_4} heading="Seamless Access" msg="Stay connected and manage your tasks on the go with ease." />
 
                 </div>
             </div>
