@@ -56,9 +56,9 @@ function Landingpage() {
                     {/* first div */}
                     <div className='basis-2/3 p-7 rounded-3xl border bg-[#FF3E54]'>
                         <div className='w-5/6 border-2 border-red-800'>
-                            <p className='text-5xl text-[#FFFFFF80]'>Organize.</p>
-                            <p className='text-5xl text-[#FFFFFFCC]'>Achieve.</p>
-                            <p className='text-5xl text-[#FFFFFFCC]'>Relax.</p>
+                            <p className='text-6xl font-semibold text-[#FFFFFF80]'>Organize.</p>
+                            <p className='text-6xl font-semibold text-[#FFFFFFCC]'>Achieve.</p>
+                            <p className='text-6xl font-semibold text-[#FFFFFFCC]'>Relax.</p>
 
                             <p className='mt-10 text-xl text-[#FFFFFF]'>Turn clutter into clarity, chaos into control, and dreams into done.bold visions into market success</p>
 
