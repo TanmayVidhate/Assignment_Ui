@@ -6,10 +6,10 @@ function Cards({img,number,heading,msg}) {
             <div className='w-[300px] h-[350px] bg-[#F7F7FB] border-2 rounded-md border-red-700 p-5'>
                 {/* image & number */}
                 <div className='flex justify-between h-2/6 border-2 border-red-600'>
-                    <div className=''>
+                    <div className='bg-[#FFFFFF]'>
                         <p>img</p>
                     </div>
-                    <div className=''>
+                    <div className='text-[#0E1F51]'>
                         <p>{number}</p>
                     </div>
                 </div>
