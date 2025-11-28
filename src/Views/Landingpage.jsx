@@ -25,6 +25,9 @@ import num_2 from '../assets/images/num_2.png'
 import num_3 from '../assets/images/num_3.png'
 import num_4 from '../assets/images/num_4.png'
 
+//import mobile img
+import mobile_hand from '../assets/images/mobile_hold.jpg'
+
 
 function Landingpage() {
     return (
@@ -71,7 +74,7 @@ function Landingpage() {
                     <div className='basis-1/4 border-2 border-red-600 rounded-3xl bg-[url(/person_img_man.png)] bg-cover bg-center'>
                         <p className='text-3xl mx-5 mt-5 text-[#FFFFFF80] font-semibold'>Your Task.</p>
                         <p className='text-3xl mx-5 text-[#FFFFFF] font-semibold'>Your Tools.</p>
-                        
+
                     </div>
                 </div>
 
@@ -142,10 +145,35 @@ function Landingpage() {
                         <img src={person} className='h-1/2 border-t-8 border-r-8 border-b-8 p-1 border-[#FF3E54] ' alt='customer image' />
                     </div>
                 </div>
+            </div>
 
-                {/* last div */}
-                <div className='mt-10 border border-red-700'>
+            {/* fourth div */}
+            <div className='min-h-min border-8 border-red-800'>
+                <div className='w-[86%]  m-auto flex justify-between border-8 border-red-800'>
+                    {/* first div mobile */}
+                    <div className='w-1/2 border-8 border-red-800'>
+                        <img src={mobile_hand} alt="mobile_hand_img" className='w-full' />
+                    </div>
 
+                    {/* second div  */}
+                    <div className=' w-1/2 border-8 border-red-800'>
+
+                        {/* heading */}
+                        <div className='w-4/6 mt-8'>
+                            <p className='text-4xl font-bold'>Start Organizing Your Life Today</p>
+                        </div>
+
+                        {/* msg */}
+                        <div className='w-full mt-8 '>
+                            <p className=' text-xl'>Join us now and transform your productivity with our intuitive to-do list platform!</p>
+                        </div>
+
+                        {/* buttons */}
+                        <div className='w-1/2 mt-8 '>
+                            <button className='bg-[#FF3E54] text-white  p-3  '>Sign Up</button>
+                            <button className='bg-[#fff] border border-red-500 text-black p-3 ml-3  '>Learn More</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
