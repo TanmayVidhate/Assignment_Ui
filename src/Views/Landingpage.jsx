@@ -1,4 +1,5 @@
 import React from 'react'
+import Cards from '../Components/Cards'
 
 function Landingpage() {
     return (
@@ -55,7 +56,18 @@ function Landingpage() {
                 </div>
             </div>
 
+            {/* Second div */}
+            <div className='min-h-min border-8 border-red-800'>
+                {/* heading */}
+                <div className='w-2/5 m-auto text-center font-semibold text-3xl border-2 border-red-700'>
+                    <p>Transform Your Productivity with Our Innovative To-Do List Features</p>
+                </div>
 
+                {/* Cards */}
+                <div className='mt-10 w-full border-2 border-red-700'>
+                    <Cards/>
+                </div>
+            </div>
         </>
     )
 }
