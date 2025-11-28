@@ -1,5 +1,18 @@
 import React from 'react'
+
+//components import
 import Cards from '../Components/Cards'
+
+//lucid icons import
+import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+//image import
+import google from '../assets/images/google.png'
+import facebook from '../assets/images/facebook.png'
+import youtube from '../assets/images/youtube.png'
+import pin from '../assets/images/pin.png'
+import twi from '../assets/images/twi.png'
+import person from '../assets/images/testimonies_img.jpg'
 
 function Landingpage() {
     return (
@@ -47,12 +60,12 @@ function Landingpage() {
                 </div>
 
                 {/* Google Text/image */}
-                <div className='flex basis-full p-5 items-center justify-center gap-16 border-2 border-red-600'>
-                    <p>Google</p>
-                    <p>facebook</p>
-                    <p>Youtube</p>
-                    <p>Pinterest</p>
-                    <p>twitch</p>
+                <div className='flex basis-full p-5 items-center justify-center gap-32 border-2 border-red-600'>
+                    <img src={google} className='w-[100px] ' alt='google' />
+                    <img src={facebook} className='w-[100px] ' alt='facebook' />
+                    <img src={youtube} className='w-[100px] ' alt='youtube' />
+                    <img src={pin} className='w-[100px] ' alt='pin' />
+                    <img src={twi} className='w-[100px] ' alt='twi' />
                 </div>
             </div>
 
@@ -70,6 +83,48 @@ function Landingpage() {
                     <Cards img="third img" number={3} heading="Effortless Collaboration" msg="Invite team members to work together and achieve your goals faster." />
                     <Cards img="fourth img" number={4} heading="Seamless Access" msg="Stay connected and manage your tasks on the go with ease." />
 
+                </div>
+            </div>
+
+            {/* Third div */}
+            <div className='min-h-min border-8 border-red-800'>
+                {/* heading */}
+                <div className='w-[86%] m-auto  font-semibold text-3xl border-2 border-red-700'>
+                    <p className='text-[#0E1F51] font-bold'>Customer Testimonials</p>
+                </div>
+
+                {/* message */}
+                <div className='w-[86%] m-auto  mt-8 border-4 border-red-700'>
+                    <p>This tool has transformed my productivity and organization!.</p>
+                </div>
+
+                {/* customer testimonials */}
+                <div className='w-[86%]  m-auto mt-14  flex justify-between '>
+
+                    {/* first feedbback */}
+                    <div className=' basis-1/2 p-3 border-8 border-[#FF3E54]   '>
+                        {/* person msg */}
+                        <div className=' w-3/4 h-2/3   bg-white  mb-28  relative -right-96 top-10  '>
+                            <p className=' h-1/2 mt-20 w-4/5 font-semibold text-2xl '>Using this website has made my tasks so much easier! I can't imagine my day without it."</p>
+                        </div>
+
+                        {/* Person Name and Post */}
+                        <div className='w-1/2 relative -right-96 -top-64'>
+                            <p className='font-bold text-xl'>Sherri Cronin</p>
+                            <p className='text-lg'>Project Manager, TechCorp</p>
+                        </div>
+
+                        {/* buttons */}
+                        <div className='w-1/2 relative -right-96 -top-60 bg-white   '>
+                            <button className='border border-red-600 rounded-full p-2 m-2 '><ChevronLeft /></button>
+                            <button className='bg-red-600 text-white rounded-full p-2 m-2 '><ChevronRight /></button>
+                        </div>
+                    </div>
+
+                    {/* photo div */}
+                    <div className='basis-1/4 flex  items-center '>
+                        <img src={person} className='h-1/2 border-t-8 border-r-8 border-b-8 p-1 border-[#FF3E54] ' alt='customer image' />
+                    </div>
                 </div>
             </div>
         </>
