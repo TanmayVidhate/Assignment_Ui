@@ -3,6 +3,13 @@ import React from 'react'
 
 import img from '../assets/navbar_logo/nav_logo.png'
 
+//import footer logo
+import facebook from '../assets/footer_logo/Facebook.png'
+import instagram from '../assets/footer_logo/Instagram.png'
+import linkedIn from '../assets/footer_logo/LinkedIn.png'
+import x from '../assets/footer_logo/X.png'
+import youtube from '../assets/footer_logo/Youtube.png'
+
 function Footer() {
     return (
         <>
@@ -60,11 +67,27 @@ function Footer() {
                         <div>
                             <p className='font-semibold mb-5'>Connect With Us</p>
                             <ul>
-                                <li>Facebook</li>
-                                <li>Instagram</li>
-                                <li>X</li>
-                                <li>LinkedIn</li>
-                                <li>YouTube</li>
+                                <div className='flex gap-2'>
+                                    <img src={facebook} alt="facebook" />
+                                    <li>Facebook</li>
+                                </div>
+                                <div className='flex gap-2'>
+                                    <img src={instagram} alt="instagram" />
+                                    <li>Instagram</li>
+                                </div>
+
+                                <div className='flex gap-2'>
+                                    <img src={x} alt="x" />
+                                    <li>X</li>
+                                </div>
+                                <div className='flex gap-2'>
+                                    <img src={linkedIn} alt="linkedIn" />
+                                    <li>LinkedIn</li>
+                                </div>
+                                <div className='flex gap-2'>
+                                    <img src={youtube} alt="YouTube" />
+                                    <li>YouTube</li>
+                                </div>
                             </ul>
                         </div>
                     </div>
