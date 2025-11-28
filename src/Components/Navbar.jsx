@@ -5,21 +5,21 @@ function Navbar() {
     return (
         <>
             <div className='w-full flex   h-1/2'>
-                <div className='w-2/3 border border-red-500 pl-16'>
-                    <img src={img} alt='logo' className='w-[150px] ' />
+                <div className='w-1/2 border border-red-500 pl-10'>
+                    <img src={img} alt='logo' className='w-[150px] border border-red-500 ' />
                 </div>
 
-                <div className='flex w-4/5 items-center justify-center border-2 border-yellow-800'>
+                <div className='flex w-3/4 items-center justify-start border-2 border-yellow-800'>
                     <div className=' w-2/4 flex justify-center items-center border border-red-800 gap-5'>
-                        <p>About Us</p>
-                        <p>Features</p>
-                        <p>More Option</p>
-                        <p>Contact</p>
+                        <p className='text-[#0E1F51] font-semibold'>About Us</p>
+                        <p className='text-[#0E1F51] font-semibold'>Features</p>
+                        <p className='text-[#0E1F51] font-semibold'>More Option</p>
+                        <p className='text-[#0E1F51] font-semibold'>Contact</p>
                     </div>
 
                     <div className='flex items-center w-2/5 gap-4 mx-4 border border-red-800'>
-                        <button className='rounded-lg border p-2 w-1/3'>LogIn</button>
-                        <button className='rounded-lg border p-2 w-1/3'>Sign Up</button>
+                        <button className='rounded-lg border p-2 w-1/3 border-[#FF3E54] text-[#FF3E54]'>LogIn</button>
+                        <button className='rounded-lg border p-2 w-1/3 bg-[#FF3E54] text-white'>Sign Up</button>
                     </div>
                 </div>
             </div>
