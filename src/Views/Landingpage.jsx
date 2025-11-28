@@ -64,8 +64,12 @@ function Landingpage() {
                 </div>
 
                 {/* Cards */}
-                <div className='mt-10 w-full border-2 border-red-700'>
-                    <Cards/>
+                <div className='mt-10 w-full flex justify-center gap-8 border-2 border-red-700'>
+                    <Cards img="First img" number={1} heading="User-Friendly Interface" msg="Our platform offers seamless task management to boost your efficiency." />
+                    <Cards img="Second img" number={2} heading="Collaborate & Share Effortlessly" msg="Invite team members to work together and achieve your goals faster." />
+                    <Cards img="third img" number={3} heading="Effortless Collaboration" msg="Invite team members to work together and achieve your goals faster." />
+                    <Cards img="fourth img" number={4} heading="Seamless Access" msg="Stay connected and manage your tasks on the go with ease." />
+
                 </div>
             </div>
         </>
