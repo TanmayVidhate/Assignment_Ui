@@ -14,6 +14,7 @@ import pin from '../assets/images/pin.png'
 import twi from '../assets/images/twi.png'
 import person from '../assets/images/testimonies_img.jpg'
 
+
 function Landingpage() {
     return (
         <>
@@ -24,38 +25,42 @@ function Landingpage() {
                 </div>
 
                 {/* message */}
-                <div className='w-1/2 text-center m-auto mt-8 border-4 border-red-700'>
+                <div className='w-1/2 text-center text-[#6F6C90] m-auto mt-8 border-4 border-red-700'>
                     <p>Stay organized and boost your productivity with our intuitive todo website.</p>
                     <p>Experience a modern approach to task management that fits your lifestyle.</p>
                 </div>
 
                 {/* button */}
                 <div className='w-1/3 mt-5 m-auto flex items-center justify-around border-4 border-red-700'>
-                    <button className='border-2 border-red-600 rounded-3xl p-2 w-1/3'>Get started</button>
-                    <button className='border-2 border-red-600 rounded-3xl p-2 w-1/3'>Learn More</button>
+                    <button className=' bg-[#FF3E54] text-white rounded-3xl p-2 py-3 w-1/3'>Get started</button>
+                    <button className='border border-[#FF3E54] text-[#FF3E54]  rounded-3xl p-2 py-3 w-1/3'>Learn More</button>
                 </div>
 
                 {/* main divs two */}
-                <div className='w-5/6 mt-10 flex gap-2 m-auto  border-2 border-red-600'>
-                    <div className='basis-2/3 p-7 rounded-3xl border-2 border-red-600'>
-                        <div className='w-5/6 border-2 border-red-800'>
-                            <p className='text-5xl'>Organize.</p>
-                            <p className='text-5xl'>Achieve.</p>
-                            <p className='text-5xl'>Relax.</p>
+                <div className='w-5/6 mt-10 flex gap-2 m-auto  border border-red-600'>
 
-                            <p className='mt-10 text-xl'>Turn clutter into clarity, chaos into control, and dreams into done.bold visions into market success</p>
+                    {/* first div */}
+                    <div className='basis-2/3 p-7 rounded-3xl border bg-[#FF3E54]'>
+                        <div className='w-5/6 border-2 border-red-800'>
+                            <p className='text-5xl text-[#FFFFFF80]'>Organize.</p>
+                            <p className='text-5xl text-[#FFFFFFCC]'>Achieve.</p>
+                            <p className='text-5xl text-[#FFFFFFCC]'>Relax.</p>
+
+                            <p className='mt-10 text-xl text-[#FFFFFF]'>Turn clutter into clarity, chaos into control, and dreams into done.bold visions into market success</p>
 
                             <div className=' w-full mt-14  flex items-center justify-start gap-5 border-4 border-red-700'>
-                                <button className='border-2 border-red-600 rounded-3xl p-2 w-1/3'>Get Started Today</button>
-                                <button className='border-2 border-red-600 rounded-3xl p-2 w-1/3'>Discover Features</button>
+                                <button className='bg-[#FFFFFF] font-semibold rounded-3xl p-2 py-3 w-1/3'>Get Started Today</button>
+                                <button className=' text-[#FFFFFF] bg-[#fd455b] border-2 py-3 border-red-600 rounded-3xl p-2 w-1/3'>Discover Features</button>
                             </div>
                         </div>
 
                     </div>
 
-                    <div className='basis-1/3 border-2 border-red-600 rounded-3xl'>
-                        <p>Your Task.</p>
-                        <p>Your Tools.</p>
+                    {/* second div */}
+                    <div className='basis-1/3 border-2 border-red-600 rounded-3xl bg-[url(/person_img_man.png)] bg-cover bg-center'>
+                        <p className='text-3xl m-5'>Your Task.</p>
+                        <p className='text-3xl m-5'>Your Tools.</p>
+                        
                     </div>
                 </div>
 
@@ -117,7 +122,7 @@ function Landingpage() {
                         {/* buttons */}
                         <div className='w-1/2 relative -right-96 -top-60 bg-white   '>
                             <button className='border border-red-600 rounded-full p-2 m-2 '><ChevronLeft /></button>
-                            <button className='bg-red-600 text-white rounded-full p-2 m-2 '><ChevronRight /></button>
+                            <button className='bg-[#FF3E54] text-white rounded-full p-2 m-2 '><ChevronRight /></button>
                         </div>
                     </div>
 
@@ -125,6 +130,11 @@ function Landingpage() {
                     <div className='basis-1/4 flex  items-center '>
                         <img src={person} className='h-1/2 border-t-8 border-r-8 border-b-8 p-1 border-[#FF3E54] ' alt='customer image' />
                     </div>
+                </div>
+
+                {/* last div */}
+                <div className='mt-10 border border-red-700'>
+
                 </div>
             </div>
         </>
