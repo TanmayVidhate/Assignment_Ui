@@ -71,7 +71,7 @@ function Landingpage() {
                     </div>
 
                     {/* second div */}
-                    <div className='basis-1/4 border-2 border-red-600 rounded-3xl bg-[url(/person_img_man.png)] bg-cover bg-center sm:basis-0 sm:h-[50vh]'>
+                    <div className='basis-1/4 border-2 border-red-600 rounded-3xl bg-[url(/person_img_man.png)] bg-cover bg-center  sm:basis-80 '>
                         <p className='text-3xl mx-5 mt-5 text-[#FFFFFF80] font-semibold'>Your Task.</p>
                         <p className='text-3xl mx-5 text-[#FFFFFF] font-semibold'>Your Tools.</p>
                     </div>
