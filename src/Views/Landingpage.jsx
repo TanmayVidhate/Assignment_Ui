@@ -39,13 +39,13 @@ function Landingpage() {
                 </div>
 
                 {/* message */}
-                <div className='w-1/2 text-center text-[#6F6C90] m-auto mt-8 border-4 border-red-700 sm:w-5/6 sm:text-sm'>
+                <div className='w-1/2 text-center text-[#6F6C90] m-auto mt-8 border-4 border-red-700 sm:w-5/6 sm:text-sm md:text-base'>
                     <p>Stay organized and boost your productivity with our intuitive todo website.</p>
                     <p>Experience a modern approach to task management that fits your lifestyle.</p>
                 </div>
 
                 {/* button */}
-                <div className='w-1/3 mt-5 m-auto flex items-center justify-around border-4 border-red-700 sm:w-2/3'>
+                <div className='w-1/3 mt-5 m-auto flex items-center justify-around border-4 border-red-700 sm:w-2/3 '>
                     <button className=' bg-[#FF3E54] text-white rounded-3xl p-2 py-3 w-1/3'>Get started</button>
                     <button className='border border-[#FF3E54] text-[#FF3E54]  rounded-3xl p-2 py-3 w-1/3'>Learn More</button>
                 </div>
@@ -79,18 +79,18 @@ function Landingpage() {
 
                 {/* Google Text/image */}
                 <div className='flex basis-full p-5 items-center justify-center gap-32 border-2 border-red-600  sm:gap-20 '>
-                    <img src={google} className='w-[100px] sm:w-[50px] ' alt='google' />
-                    <img src={facebook} className='w-[100px] sm:w-[50px] ' alt='facebook' />
-                    <img src={youtube} className='w-[100px] sm:w-[50px] ' alt='youtube' />
-                    <img src={pin} className='w-[100px] sm:w-[50px]' alt='pin' />
-                    <img src={twi} className='w-[100px] sm:w-[50px]' alt='twi' />
+                    <img src={google} className='w-[100px] sm:w-[50px] md:w-[70px] ' alt='google' />
+                    <img src={facebook} className='w-[100px] sm:w-[50px] md:w-[70px] ' alt='facebook' />
+                    <img src={youtube} className='w-[100px] sm:w-[50px] md:w-[70px]' alt='youtube' />
+                    <img src={pin} className='w-[100px] sm:w-[50px] md:w-[70px]' alt='pin' />
+                    <img src={twi} className='w-[100px] sm:w-[50px]  md:w-[70px]' alt='twi' />
                 </div>
             </div>
 
             {/* Second div */}
             <div className='min-h-min border-8 border-red-800'>
                 {/* heading */}
-                <div className='w-2/5 m-auto text-center font-semibold text-3xl border-2 border-red-700 sm:w-4/5'>
+                <div className='w-2/5 m-auto text-center font-semibold text-3xl border-2 border-red-700 sm:w-4/5 '>
                     <p>Transform Your Productivity with Our Innovative To-Do List Features</p>
                 </div>
 
