@@ -14,7 +14,7 @@ function Footer() {
     return (
         <>
             <div className='min-h-min border-2 border-red-800'>
-                <div className='w-[86%]  m-auto flex justify-center items-center mb-5 sm:flex-col md:flex-col'>
+                <div className='w-[86%]  m-auto flex justify-center items-center mb-5 sm:flex-col md:flex-col lg:flex-row'>
 
                     {/* first div */}
                     <div className='w-1/2 sm:w-full'>
@@ -37,7 +37,7 @@ function Footer() {
                     </div>
 
                     {/* second div */}
-                    <div className='w-1/2 flex gap-20 sm:gap-2 md:mt-2 sm:justify-between sm:w-full'>
+                    <div className='w-1/2 flex gap-20 sm:gap-2 md:mt-2 sm:justify-between sm:w-full lg:-mt-28'>
 
                         {/* first column links */}
                         <div className='border border-red-600 w-1/2 '>
@@ -92,7 +92,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className='w-[86%] m-auto flex justify-between border-black border-t-2 sm:flex-col'>
+                <div className='w-[86%] m-auto flex justify-between border-black border-t-2 sm:flex-col lg:flex-row'>
                     <div className='mt-8'>
                         <p className='sm:text-sm md:text-base'>© 2024 Osumare. All rights reserved.</p>
                     </div>

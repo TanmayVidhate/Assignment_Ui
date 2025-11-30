@@ -34,13 +34,13 @@ function Landingpage() {
         <>
             <div className='min-h-min border-8 border-red-800 bg-[#F7F7FB]'>
                 {/* heading */}
-                <div className=' w-4/5 m-auto border-6 border-red-800 min-h-min text-center mt-5'>
-                    <p className='w-2/5 m-auto border-4 border-red-700 text-4xl font-bold text-[#170F49] sm:w-4/5'>Simplify Your Life with Our Todo App</p>
+                <div className=' w-4/5 m-auto border-6 border-red-800 min-h-min text-center mt-5 sm:w-3/4 md:w-1/2'>
+                    <p className=' m-auto border-4 border-red-700 text-4xl font-bold text-[#170F49]  '>Simplify Your Life with Our Todo App</p>
                 </div>
 
                 {/* message */}
-                <div className='w-1/2 text-center text-[#6F6C90] m-auto mt-8 border-4 border-red-700 sm:w-5/6 sm:text-sm md:text-base'>
-                    <p>Stay organized and boost your productivity with our intuitive todo website.</p>
+                <div className='w-1/2 text-center text-[#6F6C90] m-auto mt-8 border-4 border-red-700 sm:w-5/6 sm:text-sm md:text-base  lg:text-lg '>
+                    <p className=''>Stay organized and boost your productivity with our intuitive todo website.</p>
                     <p>Experience a modern approach to task management that fits your lifestyle.</p>
                 </div>
 
@@ -51,7 +51,7 @@ function Landingpage() {
                 </div>
 
                 {/* main divs two */}
-                <div className='w-5/6 mt-10 flex gap-2 m-auto  border border-red-600 sm:flex-col'>
+                <div className='w-5/6 mt-10 flex gap-2 m-auto  border border-red-600 sm:flex-col lg:flex-row'>
 
                     {/* first div */}
                     <div className='basis-2/3 p-7 rounded-3xl border bg-[#FF3E54]'>
@@ -90,7 +90,7 @@ function Landingpage() {
             {/* Second div */}
             <div className='min-h-min border-8 border-red-800'>
                 {/* heading */}
-                <div className='w-2/5 m-auto text-center font-semibold text-3xl border-2 border-red-700 sm:w-4/5 '>
+                <div className='w-2/5 m-auto text-center font-semibold text-3xl border-2 border-red-700 sm:w-4/5 lg:w-3/5 '>
                     <p>Transform Your Productivity with Our Innovative To-Do List Features</p>
                 </div>
 
@@ -121,18 +121,18 @@ function Landingpage() {
                     {/* first feedbback */}
                     <div className=' basis-1/2 p-3 border-8 border-[#FF3E54]   '>
                         {/* person msg */}
-                        <div className=' w-3/4 h-2/3   bg-white  mb-28  relative -right-96 top-10 sm:-right-20 sm:top-5  sm:w-full  '>
+                        <div className=' w-3/4 h-2/3   bg-white  mb-28  relative -right-96 top-10 sm:-right-20 sm:top-5  sm:w-full lg:-right-52 '>
                             <p className=' h-1/2 mt-20 w-4/5 font-semibold text-2xl sm:text-xl sm:w-full  '>Using this website has made my tasks so much easier! I can't imagine my day without it."</p>
                         </div>
 
                         {/* Person Name and Post */}
-                        <div className='w-1/2 relative -right-96 -top-64  sm:-right-20 sm:-top-42  sm:w-full '>
+                        <div className='w-1/2 relative -right-96 -top-64  sm:-right-20 sm:-top-42  sm:w-full lg:-right-52 '>
                             <p className='font-bold text-xl sm:text-base sm:pt-1'>Sherri Cronin</p>
                             <p className='text-lg sm:text-sm  '>Project Manager, TechCorp</p>
                         </div>
 
                         {/* buttons */}
-                        <div className='w-1/2 relative -right-96 -top-24 bg-white sm:w-full  sm:-right-20 sm:-top-64   '>
+                        <div className='w-1/2 relative -right-96 -top-24 bg-white sm:w-full  sm:-right-20 sm:-top-64 lg:-right-48  '>
                             <button className='border border-red-600 rounded-full p-2 m-2  '><ChevronLeft /></button>
                             <button className='bg-[#FF3E54] text-white rounded-full p-2 m-2 '><ChevronRight /></button>
                         </div>
