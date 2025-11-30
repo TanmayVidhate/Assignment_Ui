@@ -14,35 +14,35 @@ function Footer() {
     return (
         <>
             <div className='min-h-min border-2 border-red-800'>
-                <div className='w-[86%]  m-auto flex justify-between mb-5'>
+                <div className='w-[86%]  m-auto flex justify-center items-center mb-5'>
 
                     {/* first div */}
-                    <div>
+                    <div className='w-1/2'>
                         {/* logo div */}
                         <div className='w-1/2 border border-red-500 pl-10'>
-                            <img src={img} alt='logo' className='w-[150px] border border-red-500 ' />
+                            <img src={img} alt='logo' className='w-[150px] border border-red-500 sm:h-[40px] ' />
                         </div>
 
                         {/* msg */}
                         <div className='w-full border border-red-500 mt-5'>
-                            <p className='text-lg'>Subscribe to our newsletter for the latest features and updates delivered to you.</p>
+                            <p className='text-lg sm:text-xs'>Subscribe to our newsletter for the latest features and updates delivered to you.</p>
                         </div>
 
                         {/* input type & button */}
                         <div className='w-full border border-red-500 mt-5 p-2'>
-                            <input type='text' className='w-1/2 border border-black p-2' placeholder='Your email here' />
-                            <button className='bg-[#FF3E54] text-white w-1/6 ml-2 p-2 rounded-md '>Join</button>
-                            <p className='text-sm mt-2'>By subscribing, you consent to our Privacy Policy and agree to receive updates.</p>
+                            <input type='text' className='w-1/2 border border-black p-2 sm:text-sm' placeholder='Your email here' />
+                            <button className='bg-[#FF3E54] text-white w-1/6 ml-2 p-2 rounded-md sm:w-1/3 '>Join</button>
+                            <p className='text-sm mt-2 sm:text-xs'>By subscribing, you consent to our Privacy Policy and agree to receive updates.</p>
                         </div>
                     </div>
 
                     {/* second div */}
-                    <div className='flex gap-20'>
+                    <div className='w-1/2 flex gap-20 sm:gap-2 sm:justify-between '>
 
                         {/* first column links */}
-                        <div>
-                            <p className='font-semibold mb-5'>Useful Links</p>
-                            <ul>
+                        <div className='border border-red-600 w-1/2 '>
+                            <p className='font-semibold mb-5 sm:text-sm  '>Useful Links</p>
+                            <ul className=''>
                                 <li>Home Page</li>
                                 <li>About Us</li>
                                 <li>Contact Us</li>
@@ -52,7 +52,7 @@ function Footer() {
                         </div>
 
                         {/* second column links */}
-                        <div>
+                        <div className='border border-red-600 w-1/2'>
                             <p className='font-semibold mb-5'>Resources</p>
                             <ul>
                                 <li>Help Center</li>
@@ -64,43 +64,43 @@ function Footer() {
                         </div>
 
                         {/* third column links */}
-                        <div>
+                        <div className='border border-red-600 w-1/2'>
                             <p className='font-semibold mb-5'>Connect With Us</p>
                             <ul>
                                 <div className='flex gap-2'>
                                     <img src={facebook} alt="facebook" />
-                                    <li>Facebook</li>
+                                    <li className='sm:hidden'>Facebook</li>
                                 </div>
                                 <div className='flex gap-2'>
                                     <img src={instagram} alt="instagram" />
-                                    <li>Instagram</li>
+                                    <li className='sm:hidden'>Instagram</li>
                                 </div>
 
                                 <div className='flex gap-2'>
                                     <img src={x} alt="x" />
-                                    <li>X</li>
+                                    <li className='sm:hidden'>X</li>
                                 </div>
                                 <div className='flex gap-2'>
                                     <img src={linkedIn} alt="linkedIn" />
-                                    <li>LinkedIn</li>
+                                    <li className='sm:hidden'>LinkedIn</li>
                                 </div>
-                                <div className='flex gap-2'>
+                                <div className='flex gap-2 '>
                                     <img src={youtube} alt="YouTube" />
-                                    <li>YouTube</li>
+                                    <li className='sm:hidden'>YouTube</li>
                                 </div>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div className='w-[86%] m-auto flex justify-between border-black border-t-2'>
+                <div className='w-[86%] m-auto flex justify-between border-black border-t-2 sm:flex-col'>
                     <div className='mt-8'>
-                        <p className=''>© 2024 Osumare. All rights reserved.</p>
+                        <p className='sm:text-sm'>© 2024 Osumare. All rights reserved.</p>
                     </div>
 
-                    <div className='flex mt-8 mb-8 gap-5'>
-                        <p>Privacy Policy</p>
-                        <p>Terms of Service</p>
-                        <p>Cookie Settings</p>
+                    <div className='flex mt-8 mb-8 gap-5 '>
+                        <p className='sm:text-sm '>Privacy Policy</p>
+                        <p className='sm:text-sm '>Terms of Service</p>
+                        <p className='sm:text-sm '>Cookie Settings</p>
                     </div>
                 </div>
             </div>
