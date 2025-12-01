@@ -34,24 +34,24 @@ function Landingpage() {
         <>
             <div className='min-h-min border-8 border-red-800 bg-[#F7F7FB]'>
                 {/* heading */}
-                <div className=' w-4/5 m-auto border-6 border-red-800 min-h-min text-center mt-5 sm:w-3/4 md:w-1/2'>
-                    <p className=' m-auto border-4 border-red-700 text-4xl font-bold text-[#170F49]  '>Simplify Your Life with Our Todo App</p>
+                <div className=' m-auto border-6 border-red-800 min-h-min text-center mt-5 sm:w-3/4 md:w-1/2 xl:w-2/5 '>
+                    <p className='m-auto border-4 border-red-700  font-bold text-[#170F49] sm:text-lg md:text-3xl lg:text-4xl xl:text-5xl '>Simplify Your Life with Our Todo App</p>
                 </div>
 
                 {/* message */}
-                <div className='w-1/2 text-center text-[#6F6C90] m-auto mt-8 border-4 border-red-700 sm:w-5/6 sm:text-sm md:text-base  lg:text-lg '>
+                <div className=' text-xs  text-center text-[#6F6C90] m-auto mt-8 border-4 border-red-700 sm:w-5/6 sm:text-sm md:text-base  lg:text-lg '>
                     <p className=''>Stay organized and boost your productivity with our intuitive todo website.</p>
                     <p>Experience a modern approach to task management that fits your lifestyle.</p>
                 </div>
 
                 {/* button */}
-                <div className='w-1/3 mt-5 m-auto flex items-center justify-around border-4 border-red-700 sm:w-2/3 '>
-                    <button className=' bg-[#FF3E54] text-white rounded-3xl p-2 py-3 w-1/3'>Get started</button>
-                    <button className='border border-[#FF3E54] text-[#FF3E54]  rounded-3xl p-2 py-3 w-1/3'>Learn More</button>
+                <div className='w-full flex-col p-2 mt-5 m-auto flex items-center justify-around border-4 border-red-700 sm:w-2/3  lg:flex-row'>
+                    <button className=' bg-[#FF3E54] text-white rounded-3xl p-2 py-3 m-1 w-1/2'>Get started</button>
+                    <button className='border border-[#FF3E54] text-[#FF3E54]  rounded-3xl p-2 py-3 w-1/2'>Learn More</button>
                 </div>
 
                 {/* main divs two */}
-                <div className='w-5/6 mt-10 flex gap-2 m-auto  border border-red-600 sm:flex-col lg:flex-row'>
+                <div className='w-5/6 mt-10 flex flex-col gap-2 m-auto  border border-red-600 sm:flex-col lg:flex-row'>
 
                     {/* first div */}
                     <div className='basis-2/3 p-7 rounded-3xl border bg-[#FF3E54]'>
@@ -60,42 +60,42 @@ function Landingpage() {
                             <p className='text-6xl font-semibold text-[#FFFFFFCC]'>Achieve.</p>
                             <p className='text-6xl font-semibold text-[#FFFFFFCC]'>Relax.</p>
 
-                            <p className='mt-10 text-xl text-[#FFFFFF] sm:text-lg sm:mt-5'>Turn clutter into clarity, chaos into control, and dreams into done.bold visions into market success</p>
+                            <p className='mt-5 text-lg text-[#FFFFFF] sm:text-lg sm:mt-5'>Turn clutter into clarity, chaos into control, and dreams into done.bold visions into market success</p>
 
-                            <div className=' w-full mt-14  flex items-center justify-start gap-5 border-4 border-red-700 sm:mt-10'>
-                                <button className='bg-[#FFFFFF] font-semibold rounded-3xl p-2 py-3 w-1/3 sm:w-1/2'>Get Started Today</button>
-                                <button className=' text-[#FFFFFF] bg-[#fd455b] border-2 py-3 border-red-600 rounded-3xl p-2 w-1/3 sm:w-1/2'>Discover Features</button>
+                            <div className=' w-full mt-7  flex flex-col items-center justify-start gap-2 p-2 border-4 border-red-700 sm:mt-10 lg:flex lg:flex-row'>
+                                <button className='bg-[#FFFFFF] font-semibold text-sm rounded-3xl p-2 py-3 w-full sm:w-1/2'>Get Started Today</button>
+                                <button className=' text-[#FFFFFF] bg-[#fd455b] border-2 py-3 border-red-600 text-sm rounded-3xl p-2 w-full sm:w-1/2'>Discover Features</button>
                             </div>
                         </div>
 
                     </div>
 
                     {/* second div */}
-                    <div className='basis-1/4 border-2 border-red-600 rounded-3xl bg-[url(/person_img_man.png)] bg-cover bg-center  sm:basis-80 '>
+                    <div className='basis-[50vw] border-2 border-red-600 rounded-3xl bg-[url(/person_img_man.png)] bg-cover bg-center  sm:basis-80 '>
                         <p className='text-3xl mx-5 mt-5 text-[#FFFFFF80] font-semibold'>Your Task.</p>
                         <p className='text-3xl mx-5 text-[#FFFFFF] font-semibold'>Your Tools.</p>
                     </div>
                 </div>
 
                 {/* Google Text/image */}
-                <div className='flex basis-full p-5 items-center justify-center gap-32 border-2 border-red-600  sm:gap-20 '>
-                    <img src={google} className='w-[100px] sm:w-[50px] md:w-[70px] ' alt='google' />
-                    <img src={facebook} className='w-[100px] sm:w-[50px] md:w-[70px] ' alt='facebook' />
-                    <img src={youtube} className='w-[100px] sm:w-[50px] md:w-[70px]' alt='youtube' />
-                    <img src={pin} className='w-[100px] sm:w-[50px] md:w-[70px]' alt='pin' />
-                    <img src={twi} className='w-[100px] sm:w-[50px]  md:w-[70px]' alt='twi' />
+                <div className='flex basis-full p-5 items-center justify-center gap-5 border-2 border-red-600  sm:gap-20 '>
+                    <img src={google} className='w-[40px] sm:w-[50px] md:w-[70px]' alt='google' />
+                    <img src={facebook} className='w-[40px] sm:w-[50px] md:w-[70px] ' alt='facebook' />
+                    <img src={youtube} className='w-[40px] sm:w-[50px] md:w-[70px]' alt='youtube' />
+                    <img src={pin} className='w-[40px] sm:w-[50px] md:w-[70px]' alt='pin' />
+                    <img src={twi} className='w-[40px] sm:w-[50px]  md:w-[70px]' alt='twi' />
                 </div>
             </div>
 
             {/* Second div */}
             <div className='min-h-min border-8 border-red-800'>
                 {/* heading */}
-                <div className='w-2/5 m-auto text-center font-semibold text-3xl border-2 border-red-700 sm:w-4/5 lg:w-3/5 '>
+                <div className='w-4/6 m-auto text-center font-semibold text-2xl border-2 border-red-700 sm:w-4/5 lg:w-3/6 xl:w-2/4 '>
                     <p>Transform Your Productivity with Our Innovative To-Do List Features</p>
                 </div>
 
                 {/* Cards */}
-                <div className='mt-10 w-full flex justify-center gap-8 border-2 border-red-700 sm:flex-wrap   '>
+                <div className='mt-10 w-full flex flex-wrap justify-center gap-8 border-2 border-red-700 sm:flex-wrap   '>
                     <Cards img={card1} number={num_1} heading="User-Friendly Interface" msg="Our platform offers seamless task management to boost your efficiency."  />
                     <Cards img={card2} number={num_2} heading="Collaborate & Share Effortlessly" msg="Invite team members to work together and achieve your goals faster." />
                     <Cards img={card3} number={num_3} heading="Effortless Collaboration" msg="Invite team members to work together and achieve your goals faster." />
@@ -121,18 +121,18 @@ function Landingpage() {
                     {/* first feedbback */}
                     <div className=' basis-1/2 p-3 border-8 border-[#FF3E54]   '>
                         {/* person msg */}
-                        <div className=' w-3/4 h-2/3   bg-white  mb-28  relative -right-96 top-10 sm:-right-20 sm:top-5  sm:w-full lg:-right-52 '>
+                        <div className=' w-3/4 h-2/3   bg-white  mb-28  relative -right-96 top-10 sm:-right-20 sm:top-5  sm:w-full lg:-right-52 xl:w-2/3  xl:-right-80'>
                             <p className=' h-1/2 mt-20 w-4/5 font-semibold text-2xl sm:text-xl sm:w-full  '>Using this website has made my tasks so much easier! I can't imagine my day without it."</p>
                         </div>
 
                         {/* Person Name and Post */}
-                        <div className='w-1/2 relative -right-96 -top-64  sm:-right-20 sm:-top-42  sm:w-full lg:-right-52 '>
+                        <div className='w-1/2 relative -right-96 -top-64  sm:-right-20 sm:-top-42  sm:w-full lg:-right-52 xl:-right-80 xl:-top-64 '>
                             <p className='font-bold text-xl sm:text-base sm:pt-1'>Sherri Cronin</p>
                             <p className='text-lg sm:text-sm  '>Project Manager, TechCorp</p>
                         </div>
 
                         {/* buttons */}
-                        <div className='w-1/2 relative -right-96 -top-24 bg-white sm:w-full  sm:-right-20 sm:-top-64 lg:-right-48  '>
+                        <div className=' relative -right-96 -top-24 bg-white sm:w-full  sm:-right-20 sm:-top-64 lg:-right-48 xl:-right-80 xl:w-1/2 '>
                             <button className='border border-red-600 rounded-full p-2 m-2  '><ChevronLeft /></button>
                             <button className='bg-[#FF3E54] text-white rounded-full p-2 m-2 '><ChevronRight /></button>
                         </div>

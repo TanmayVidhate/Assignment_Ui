@@ -3,7 +3,7 @@ import React from 'react'
 function Cards({img,number,heading,msg}) {
     return (
         <>
-            <div className='w-[300px] h-[350px] bg-[#F7F7FB] border-2 rounded-md border-red-700 p-5 sm:w-[250px]  '>
+            <div className='w-[250px] h-[350px] bg-[#F7F7FB] border-2 rounded-md border-red-700 p-5 sm:w-[250px] lg:w-[220px] '>
                 {/* image & number */}
                 <div className='flex justify-between h-2/6 border-2 border-red-600 p-2 sm:h-1/4'>
                     <div className='bg-[#FFFFFF] flex basis-1/4 items-center justify-center rounded-lg border border-red-700'>

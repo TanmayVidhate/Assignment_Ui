@@ -13,11 +13,11 @@ import youtube from '../assets/footer_logo/Youtube.png'
 function Footer() {
     return (
         <>
-            <div className='min-h-min border-2 border-red-800'>
-                <div className='w-[86%]  m-auto flex justify-center items-center mb-5 sm:flex-col md:flex-col lg:flex-row'>
+            <div className='min-h-min border-2 border-red-800 mb-5'>
+                <div className='w-[86%]  m-auto flex flex-col  items-center mb-5 sm:flex-col md:flex-col lg:flex-row'>
 
                     {/* first div */}
-                    <div className='w-1/2 sm:w-full'>
+                    <div className='w-full sm:w-full'>
                         {/* logo div */}
                         <div className='w-1/2 border border-red-500 pl-10'>
                             <img src={img} alt='logo' className='w-[150px] border border-red-500 sm:h-[50px] md:h-[80px]' />
@@ -25,7 +25,7 @@ function Footer() {
 
                         {/* msg */}
                         <div className='w-full border border-red-500 mt-5'>
-                            <p className='text-lg sm:text-sm md:text-sm'>Subscribe to our newsletter for the latest features and updates delivered to you.</p>
+                            <p className='text-sm sm:text-sm md:text-sm'>Subscribe to our newsletter for the latest features and updates delivered to you.</p>
                         </div>
 
                         {/* input type & button */}
@@ -37,11 +37,11 @@ function Footer() {
                     </div>
 
                     {/* second div */}
-                    <div className='w-1/2 flex gap-20 sm:gap-2 md:mt-2 sm:justify-between sm:w-full lg:-mt-28'>
+                    <div className='w-full flex  sm:gap-2 md:mt-2 sm:justify-between sm:w-full lg:-mt-32'>
 
                         {/* first column links */}
-                        <div className='border border-red-600 w-1/2 '>
-                            <p className='font-semibold mb-5 sm:text-sm  '>Useful Links</p>
+                        <div className='border border-red-600 text-sm w-1/2 '>
+                            <p className='font-semibold  mb-5  sm:text-sm  '>Useful Links</p>
                             <ul className=''>
                                 <li>Home Page</li>
                                 <li>About Us</li>
@@ -52,8 +52,8 @@ function Footer() {
                         </div>
 
                         {/* second column links */}
-                        <div className='border border-red-600 w-1/2'>
-                            <p className='font-semibold mb-5'>Resources</p>
+                        <div className='border border-red-600 text-sm w-1/2'>
+                            <p className='font-semibold mb-5 sm:text-sm'>Resources</p>
                             <ul>
                                 <li>Help Center</li>
                                 <li>User Guide</li>
@@ -64,9 +64,9 @@ function Footer() {
                         </div>
 
                         {/* third column links */}
-                        <div className='border border-red-600 w-1/2'>
-                            <p className='font-semibold mb-5'>Connect With Us</p>
-                            <ul>
+                        <div className='border border-red-600 text w-1/2'>
+                            <p className='font-semibold mb-5 sm:text-sm'>Connect With Us</p>
+                            <ul className='text-sm'>
                                 <div className='flex gap-2'>
                                     <img src={facebook} alt="facebook" />
                                     <li>Facebook</li>
