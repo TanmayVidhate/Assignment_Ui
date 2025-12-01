@@ -13,23 +13,23 @@ import youtube from '../assets/footer_logo/Youtube.png'
 function Footer() {
     return (
         <>
-            <div className='min-h-min border-2 border-red-800 mb-5'>
+            <div className='min-h-min  mb-5'>
                 <div className='w-[86%]  m-auto flex flex-col  items-center mb-5 sm:flex-col md:flex-col lg:flex-row'>
 
                     {/* first div */}
                     <div className='w-full sm:w-full'>
                         {/* logo div */}
-                        <div className='w-1/2 border border-red-500 pl-10'>
-                            <img src={img} alt='logo' className='w-[150px] border border-red-500 sm:h-[50px] md:h-[80px]' />
+                        <div className='w-1/2  pl-10'>
+                            <img src={img} alt='logo' className='w-[150px]  sm:h-[50px] md:h-[80px]' />
                         </div>
 
                         {/* msg */}
-                        <div className='w-full border border-red-500 mt-5'>
+                        <div className='w-full  mt-5'>
                             <p className='text-sm sm:text-sm md:text-sm'>Subscribe to our newsletter for the latest features and updates delivered to you.</p>
                         </div>
 
                         {/* input type & button */}
-                        <div className='w-full border border-red-500 mt-5 p-2'>
+                        <div className='w-full  mt-5 p-2'>
                             <input type='text' className='w-1/2 border border-black p-2 sm:text-sm' placeholder='Your email here' />
                             <button className='bg-[#FF3E54] text-white w-1/6 ml-2 p-2 rounded-md sm:w-1/3 '>Join</button>
                             <p className='text-sm mt-2 sm:text-sm md:text-sm'>By subscribing, you consent to our Privacy Policy and agree to receive updates.</p>
@@ -37,10 +37,10 @@ function Footer() {
                     </div>
 
                     {/* second div */}
-                    <div className='w-full flex  sm:gap-2 md:mt-2 sm:justify-between sm:w-full lg:-mt-32'>
+                    <div className='w-full flex  sm:gap-2 md:mt-2 sm:justify-between sm:w-full lg:-mt-32 xl:-mt-20'>
 
                         {/* first column links */}
-                        <div className='border border-red-600 text-sm w-1/2 '>
+                        <div className=' text-sm w-1/2 '>
                             <p className='font-semibold  mb-5  sm:text-sm  '>Useful Links</p>
                             <ul className=''>
                                 <li>Home Page</li>
@@ -52,7 +52,7 @@ function Footer() {
                         </div>
 
                         {/* second column links */}
-                        <div className='border border-red-600 text-sm w-1/2'>
+                        <div className='text-sm w-1/2'>
                             <p className='font-semibold mb-5 sm:text-sm'>Resources</p>
                             <ul>
                                 <li>Help Center</li>
@@ -64,7 +64,7 @@ function Footer() {
                         </div>
 
                         {/* third column links */}
-                        <div className='border border-red-600 text w-1/2'>
+                        <div className=' text w-1/2'>
                             <p className='font-semibold mb-5 sm:text-sm'>Connect With Us</p>
                             <ul className='text-sm'>
                                 <div className='flex gap-2'>

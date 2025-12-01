@@ -3,9 +3,9 @@ import React from 'react'
 function Cards({img,number,heading,msg}) {
     return (
         <>
-            <div className='w-[250px] h-[350px] bg-[#F7F7FB] border-2 rounded-md border-red-700 p-5 sm:w-[250px] lg:w-[220px] '>
+            <div className='w-[250px] h-[350px] bg-[#F7F7FB]  rounded-md  p-5 sm:w-[250px] lg:w-[220px] xl:w-[300px]  '>
                 {/* image & number */}
-                <div className='flex justify-between h-2/6 border-2 border-red-600 p-2 sm:h-1/4'>
+                <div className='flex justify-between h-2/6  p-2 sm:h-1/4'>
                     <div className='bg-[#FFFFFF] flex basis-1/4 items-center justify-center rounded-lg border border-red-700'>
                         <img src={img} alt='card_img' className='w-1/2'/>
                     </div>
@@ -15,7 +15,7 @@ function Cards({img,number,heading,msg}) {
                 </div>
 
                 {/* heading */}
-                <div className='text-lg font-bold mt-5 border border-red-300 sm:text-base'>
+                <div className='text-lg font-bold mt-5  sm:text-base'>
                     <p>{heading}</p>
                 </div>
 
