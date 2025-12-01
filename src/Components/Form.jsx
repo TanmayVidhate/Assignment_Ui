@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { X } from 'lucide-react';
 
-function Form({records,setRecords,frmData,setFrmData,openfrm,setOpenFrm}) {
+function Form({records,setRecords,frmData,setFrmData,openfrm,setOpenFrm,isSubmitted,setIsSubmitted}) {
 
   const handleCheckbox = (e) => {
     const value = e.target.value;
@@ -33,6 +33,8 @@ function Form({records,setRecords,frmData,setFrmData,openfrm,setOpenFrm}) {
       language: [],
       email: " ",
     })
+
+    setIsSubmitted(true)
   }
 
   return (
